@@ -1,0 +1,8 @@
+.error-message {
+   color: red; /* Set the error message text color to red */
+   margin-top: 10px; /* Add some margin for better spacing */
+ }
+ 
+ .warning-icon {
+   margin-right: 5px; /* Add some margin between the icon and text */
+ }

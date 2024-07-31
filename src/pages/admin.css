@@ -1,0 +1,53 @@
+.navbar87 {
+  background-color: rgb(137, 137, 223);
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left:20px;
+  margin-top:30px;
+  /* padding-top:150px; */
+}
+.nav-link:hover {
+  color:black;
+  
+}
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.h118 {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  margin: 5px;
+  padding: 46px 46px;
+  background-color: rgb(137, 137, 223);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.add-button:hover {
+   color:black;
+   border:1px solid black;
+}

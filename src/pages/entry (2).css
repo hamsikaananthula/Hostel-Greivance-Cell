@@ -1,0 +1,113 @@
+body {
+ 
+    background-color:white;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    background-color:rgb(137, 137, 223);
+    padding: 20px;
+    font-size:20px;
+    width:1300px;
+  }
+  
+  .nav-link {
+    color: white; /* Example color for the links in the navbar */
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left:20px;
+  }
+  
+  .nav-link:hover {
+    color:black;
+    
+  }
+  
+  .container {
+    margin-top:100px;
+    margin-left:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    margin: 10px 40px;
+    margin-top:-300px;
+    width: 300px;
+    background-color: #fff;
+    /* border-radius:1px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    height:300px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .card-header {
+    background-color:rgb(137, 137, 223);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .btn {
+    display: block;
+    width: 50%;
+    padding: 5px 0;
+    margin-top: 40px;
+    text-align: center;
+    background-color:rgb(137, 137, 223);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left:50px;
+    font-size:20px;
+  }
+  .btn:hover {
+    color:black;
+  }
+  .icon {
+    margin-right: 10px;
+    color:white;
+    font-size:20px;
+  }
+  .admin-icon {
+    color:black;
+    margin-right:2px;
+  }
+  .student-icon, .worker-icon {
+    color:black;
+    margin-right:2px;
+  }
+  .header {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .header h2 {
+    font-size: 2rem;
+    
+   
+    cursor: pointer;
+    font-weight:100;
+    padding-top:-20px;
+    background-color:rgb(137, 137, 223);
+  }
+  
+  .card-header .mb-2{
+      font-size:20px;
+  }
+  .heading{
+    height:50px;
+    background-color:black;
+    color:white;
+    font-size:1.8em;
+  }

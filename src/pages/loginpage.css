@@ -1,0 +1,118 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+.navbar88 {
+    background-color: rgb(137, 137, 223);
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+    /* margin-bottom:50px; */
+  }
+  
+  .nav-link {
+    color: white; /* Example color for the links in the navbar */
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left:20px;
+  }
+  
+  .nav-link:hover {
+    color:black;
+    
+  }
+  
+html,body{
+    display:grid;
+    height:100%;
+    place-items:center;
+    background-color:#fff;
+}
+.wrapper{
+    width:750px;
+    background-color: #fff;
+    border-radius:15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    margin-top:20px;
+    /* height:100px; */
+    margin-left:200px;
+    /* margin-top:50px; */
+}
+.wrapper .title{
+    color:white;
+    font-size:35px;
+    font-weight:600;
+    text-align: center;
+    line-height:150px;
+    background:rgb(137, 137, 223);
+}
+.wrapper .title1 {
+    display: flex;
+}
+.wrapper .login-image {
+    width: 200%;
+    margin-right: 50px;
+}
+.wrapper form{
+    padding:50px 30px;
+    width: 100%;
+}
+.wrapper form .field{
+    position:relative;
+    height:50px;
+    width:100%;
+    margin-top: 20px;
+}
+.wrapper form .field input{
+    height:45px;
+    width:300px;
+    padding-left:10px;
+    border-radius: 5px; 
+    outline:none;
+    font-size: 18px;
+    border:1px solid rgb(138, 108, 93);
+}
+.wrapper form .field label{
+    position:absolute;
+    top:50%;
+    left:20px;
+    font-size:17px;
+    color:rgb(137, 137, 223);
+    transform:translatey(-50%);
+    pointer-events: none;
+    transition:all 0.3s ease;
+}
+.wrapper form .field input:focus ~ label{
+       top:0%;
+        color:black;
+       font-size:16px;
+       background:#fff;
+       transform:translatey(-50%);
+}
+.wrapper form .field h3{
+        font-weight:100;
+}
+.btn88{
+    display: block;
+    width:100px;
+    padding: 5px 0;
+    /* margin-top: 30px; */
+    text-align: center;
+    /* background-color:rgb(137, 137, 223); */
+    color:black;
+    /* border:1px solid black; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left:50px;
+    font-size:15px;
+}
+.btn88 i{
+    color:black;
+}

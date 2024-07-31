@@ -1,0 +1,35 @@
+import "./admin.css";
+export default function admin(){
+     return(
+        <>
+        <header>
+        <nav className="navbar">
+          <a href="#" className="nav-link">Home</a>
+          <a href="#" className="nav-link">Logout</a>
+        </nav>
+      </header>
+            <div class="admin-page">
+    <h1>Admin Page</h1>
+    <div className="buttons">
+      <button className="add-button">Add Student</button>
+      <button className="add-button">Add Worker</button>
+      <button className="add-button">Add Warden</button>
+    </div>
+    {/* <div class="lists">
+      <div class="list">
+        <h2>Students</h2>
+        <ul id="student-list"></ul>
+      </div>
+      <div class="list">
+        <h2>Workers</h2>
+        <ul id="worker-list"></ul>
+      </div>
+      <div class="list">
+        <h2>Wardens</h2>
+        <ul id="warden-list"></ul>
+      </div>
+    </div> */}
+  </div>
+        </>
+     );
+}
